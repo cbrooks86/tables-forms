@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day 1 - Monday - Classwork</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <h1>Acme Arms Popup Soup Kitchen</h1>
+    <h2>Our Schedule</h2>
+    <table>
+        <tr style="background-color: transparent;">
+            <th style="background-color: transparent;"></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td colspan="3" style="background-color:red;">All-You-Can-Meat Soup (Mon - Wed) </td>
+            <!-- Colspan 2 -->
+            <!-- Colspan 3 -->
+            <td>Miso</td>
+            <td>Pea Soup</td>
+            <td>Clam Chowder</td>
+            <td>Stone Soup</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td rowspan="2" style="background-color:red;">Last Week's<br />Leftover Mix</td>
+            <td>Chili</td>
+            <td>Tomato Soup</td>
+            <td>Cream O' Mushroom</td>
+            <td>Gumbo</td>
+            <td>Gezpacho</td>
+            <td>Hot &amp; Sour</td>
+        </tr>
+        <tr>
+            <th>Dinner</th>
+            <!-- Rowspan 2 -->
+            <td>Minestrone</td>
+            <td>Pho</td>
+            <td>French Onion</td>
+            <td>Ajiaco</td>
+            <td>Potage</td>
+            <td>Crab Bisque</td>
+        </tr>
+    </table>
+    <form action="#">
+        <h2>Contact Us</h2>
+        <p>Contact us to reserve a table:</p>
+        <div class="flex-wrapper">
+            <div>
+                <label for="FIRSTNAME"><span>First Name:</span><span class="required">*</span></label>
+                <input type="text" id="FIRSTNAME" name="FIRSTNAME" value="">
+            </div>
+            <div>
+                <label for="LASTNAME"><span>Last Name:</span><span class="required">*</span></label>
+                <input type="text" id="LASTNAME" name="LASTNAME" value="">
+            </div>
+
+            <div>
+                <label for="EMAIL"><span>E-mail Address:</span><span class="required">*</span></label>
+                <input type="text" id="EMAIL" name="EMAIL" value="">
+            </div>
+            <div>
+                <label for="RES_FULLADDRESS"><span>Address:</span></label>
+                <input type="text" id="RES_FULLADDRESS" name="RES_FULLADDRESS" value="">
+            </div>
+            <div>
+                <label for="RES_CITY"><span>City:</span></label>
+                <input type="text" id="RES_CITY" name="RES_CITY" value="">
+            </div>
+            <div>
+                <label for="RES_STATE"><span>State:</span></label>
+                <input type="text" id="RES_STATE" name="RES_STATE" value="">
+            </div>
+            <div>
+                <label for="RES_ZIP"><span>Zip:</span></label>
+                <input type="text" id="RES_ZIP" name="RES_ZIP" value="">
+            </div>
+            <div>
+                <label for="HOMEPHONE"><span>Home Phone:</span></label>
+                <input type="text" id="HOMEPHONE" name="HOMEPHONE" value="">
+            </div>
+        </div>
+        <div>
+            <p id="submitbutton"> <button class="button" type="submit" name="submitprofile" value="Submit">Contact
+                    Us</button> </p>
+        </div>
+    </form>
+
+</body>
+
+</html>
